@@ -5,8 +5,12 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
+
+import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import java.io.IOException;
@@ -54,5 +58,7 @@ public class ProfileActivity extends AppCompatActivity {
                 }
             }
         }
+
+
     }
 }
